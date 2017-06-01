@@ -1,4 +1,5 @@
-##Comparison of Gaussian Naive Bayes, Logistic Regression, and SVC##
+## Comparison of Gaussian Naive Bayes, Logistic Regression, and SVC ##
+
 **Feature Selection:**
 
 KBest Results:
@@ -31,7 +32,8 @@ sensitivity. If you want a high accuracy that does not sacrifice specificity as 
 naive bayes works well on this data set. Logistic regression has the worst performance
 across the board.
 
-##Random Forest##
+## Random Forest ##
+
 **Classification Results:**
 
 | Classifier | Sensitivity | Specificity | Accuracy | F1 Score | AUC |
@@ -41,10 +43,6 @@ across the board.
 **Feature Importance:**
 
 Random Forest Output: [ 0.19790539  0.2121318   0.54407048  0.04589234]
-
-1. Which features are "most" important? That is, based on your interpretation of the random 
-forest output, would you choose to select only a subset of features if you were to use another 
-model such as a support vector machine?
 
 This output shows that age is the highest ranking feature, followed by both ctm data points.
 The length of stay is the lowest ranking feature and does not provide much insight into
